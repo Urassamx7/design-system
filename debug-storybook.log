@@ -1,0 +1,1037 @@
+[15:18:52.218] [INFO] Storybook upgrade - v10.5.4
+[15:18:52.222] [INFO] detect-projects-spinner-start: Detecting projects...
+[15:18:52.225] [DEBUG] Finding Storybook projects...
+[15:18:52.315] [DEBUG] Found 1 Storybook projects
+[15:18:52.319] [INFO] detect-projects-spinner: Detecting projects: 1 projects
+[15:18:52.319] [DEBUG] Getting Storybook data...
+[15:18:52.319] [DEBUG] Getting Storybook info...
+[15:18:52.451] [DEBUG] Getting stories paths...
+[15:18:52.482] [DEBUG] Getting package manager...
+[15:18:54.256] [DEBUG] Getting package.json info for D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/package.json...
+[15:18:54.256] [DEBUG] Getting Storybook version...
+[15:18:54.256] [DEBUG] Detecting CSF factory usage...
+[15:18:54.282] [DEBUG] D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook - Validating before version... 8.6.18
+[15:18:54.282] [DEBUG] D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook - Validating upgrade compatibility...
+[15:18:54.282] [DEBUG] D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook - Fetching NPM version information...
+[15:18:54.282] [DEBUG] Getting CLI versions from NPM for storybook...
+[15:18:54.282] [DEBUG] Executing command: npm info storybook version
+[15:18:54.283] [DEBUG] Resolved command variation: npm.cmd
+[15:18:54.328] [DEBUG] Getting CLI versions from NPM for storybook@next...
+[15:18:54.328] [DEBUG] Executing command: npm info storybook@next version
+[15:18:54.329] [DEBUG] Resolved command variation: npm.cmd
+[15:18:56.924] [DEBUG] D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook - Evaluating blockers...
+[15:18:56.974] [DEBUG] Getting installed version for @storybook/experimental-addon-test...
+[15:18:56.982] [DEBUG] Executing command: npm ls --json --depth=99
+[15:18:56.983] [DEBUG] Resolved command variation: npm.cmd
+[15:18:59.784] [DEBUG] No installations found for @storybook/experimental-addon-test
+[15:18:59.784] [INFO] detect-projects-spinner-stop: 1 project detected
+[15:18:59.785] [DEBUG] Found 1 valid projects and 0 error projects
+[15:18:59.785] [INFO] Upgrading from [1m8.6.18[22m to [1m10.5.4[22m
+[15:18:59.787] [DEBUG] Executing command: npm config get min-release-age --workspaces=false --include-workspace-root
+[15:18:59.788] [DEBUG] Resolved command variation: npm.cmd
+[15:19:00.462] [INFO] upgrade-dependencies-task-start: Fetching versions to update package.json files..
+[15:19:00.462] [DEBUG] Updating dependencies in D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:00.463] [INFO] upgrade-dependencies-task: D:/Programming/Rocketseat/Reactjs/6 - Design
+System/desgin-system/packages/docs/package.json
+D:/Programming/Rocketseat/Reactjs/6 - Design
+System/desgin-system/package.json
+[15:19:00.464] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:00.465] [DEBUG] {
+  "upgradedDependencies": [
+    "@storybook/addon-a11y@^10.5.4"
+  ]
+}
+[15:19:00.465] [DEBUG] {
+  "upgradedDevDependencies": [
+    "@storybook/react@^10.5.4",
+    "@storybook/addon-links@^10.5.4",
+    "@storybook/builder-vite@^10.5.4"
+  ]
+}
+[15:19:00.465] [DEBUG] {
+  "upgradedPeerDependencies": []
+}
+[15:19:00.465] [DEBUG] Getting package.json info for D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/package.json...
+[15:19:00.465] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:00.465] [DEBUG] Getting CLI versions from NPM for @storybook/addon-a11y...
+[15:19:00.465] [DEBUG] Executing command: npm info @storybook/addon-a11y version
+[15:19:00.466] [DEBUG] Resolved command variation: npm.cmd
+[15:19:03.886] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:03.886] [DEBUG] Getting package.json info for D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/package.json...
+[15:19:03.886] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:03.886] [DEBUG] Getting CLI versions from NPM for @storybook/react...
+[15:19:03.886] [DEBUG] Executing command: npm info @storybook/react version
+[15:19:03.887] [DEBUG] Resolved command variation: npm.cmd
+[15:19:07.757] [DEBUG] Getting CLI versions from NPM for @storybook/addon-links...
+[15:19:07.757] [DEBUG] Executing command: npm info @storybook/addon-links version
+[15:19:07.760] [DEBUG] Resolved command variation: npm.cmd
+[15:19:16.906] [DEBUG] Getting CLI versions from NPM for @storybook/builder-vite...
+[15:19:16.906] [DEBUG] Executing command: npm info @storybook/builder-vite version
+[15:19:16.906] [DEBUG] Resolved command variation: npm.cmd
+[15:19:20.598] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:20.598] [DEBUG] Getting package.json info for D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/package.json...
+[15:19:20.598] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:20.598] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:20.599] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:20.599] [DEBUG] {
+  "upgradedDependencies": []
+}
+[15:19:20.599] [DEBUG] {
+  "upgradedDevDependencies": []
+}
+[15:19:20.599] [DEBUG] {
+  "upgradedPeerDependencies": []
+}
+[15:19:20.599] [DEBUG] Getting package.json info for D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/package.json...
+[15:19:20.599] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:20.599] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:20.599] [DEBUG] Getting package.json info for D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/package.json...
+[15:19:20.599] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:20.599] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:20.600] [DEBUG] Getting package.json info for D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/package.json...
+[15:19:20.600] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:20.600] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:20.600] [INFO] upgrade-dependencies-task-success: Updated package versions in package.json files
+[15:19:20.602] [INFO] detect-automigrations-task-start: Detecting automigrations...
+[15:19:20.602] [DEBUG] Starting automigration collection across 1 projects and 24 fixes...
+[15:19:20.603] [INFO] detect-automigrations-task: Checking automigrations for D:/Programming/Rocketseat/Reactjs/6 - Design
+System/desgin-system/packages/docs/.storybook...
+[15:19:20.603] [DEBUG] Processing project: D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook
+[15:19:20.603] [DEBUG] Checking fix eslintPlugin for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:20.603] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:20.603] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:20.604] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:20.609] [DEBUG] Checking fix addon-mdx-gfm-remove for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:20.610] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:20.610] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:20.610] [DEBUG] Checking fix addon-storysource-code-panel for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:20.610] [DEBUG] Checking fix upgrade-storybook-related-dependencies for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:20.610] [DEBUG] Checking for incompatible storybook packages...
+[15:19:20.611] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:20.611] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:20.618] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:20.618] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:20.618] [DEBUG] Getting installed version for @storybook/addon-essentials...
+[15:19:20.619] [DEBUG] Getting installed version for @storybook/addon-interactions...
+[15:19:20.619] [DEBUG] Getting installed version for @storybook/addon-actions...
+[15:19:20.619] [DEBUG] Getting installed version for @storybook/testing-library...
+[15:19:20.619] [DEBUG] Executing command: npm ls --json --depth=99
+[15:19:20.620] [DEBUG] Resolved command variation: npm.cmd
+[15:19:20.644] [DEBUG] Executing command: npm ls --json --depth=99
+[15:19:20.645] [DEBUG] Resolved command variation: npm.cmd
+[15:19:20.668] [DEBUG] Executing command: npm ls --json --depth=99
+[15:19:20.669] [DEBUG] Resolved command variation: npm.cmd
+[15:19:20.700] [DEBUG] Executing command: npm ls --json --depth=99
+[15:19:20.701] [DEBUG] Resolved command variation: npm.cmd
+[15:19:30.748] [DEBUG] Executing command: npm ls --json --depth=0
+[15:19:30.749] [DEBUG] Resolved command variation: npm.cmd
+[15:19:30.911] [DEBUG] Executing command: npm ls --json --depth=0
+[15:19:30.912] [DEBUG] Resolved command variation: npm.cmd
+[15:19:30.983] [DEBUG] Executing command: npm ls --json --depth=0
+[15:19:30.984] [DEBUG] Resolved command variation: npm.cmd
+[15:19:31.204] [DEBUG] Executing command: npm ls --json --depth=0
+[15:19:31.205] [DEBUG] Resolved command variation: npm.cmd
+[15:19:33.754] [DEBUG] Error finding installations for @storybook/addon-interactions: ExecaError: Command failed with exit code 1: npm.cmd ls --json "--depth=0"
+
+{
+  "name": "desgin-system",
+  "problems": [
+    "invalid: @storybook/addon-a11y@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-a11y",
+    "invalid: @storybook/addon-links@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-links",
+    "invalid: @storybook/builder-vite@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\builder-vite",
+    "invalid: @storybook/react@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\react"
+  ],
+  "dependencies": {
+    "@urassamx7/docs": {
+      "version": "1.0.0",
+      "resolved": "file:../../packages/docs",
+      "overridden": false,
+      "dependencies": {
+        "@babel/core": {
+          "version": "7.29.7",
+          "resolved": "https://registry.npmjs.org/@babel/core/-/core-7.29.7.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-a11y": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-a11y/-/addon-a11y-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/addon-a11y@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-a11y"
+          ]
+        },
+        "@storybook/addon-actions": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-actions/-/addon-actions-8.6.18.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-essentials": {
+          "version": "8.6.14",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-essentials/-/addon-essentials-8.6.14.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-interactions": {
+          "version": "8.6.14",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-interactions/-/addon-interactions-8.6.14.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-links": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-links/-/addon-links-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/addon-links@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-links"
+          ]
+        },
+        "@storybook/builder-vite": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/builder-vite/-/builder-vite-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/builder-vite@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\builder-vite"
+          ]
+        },
+        "@storybook/react": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/react/-/react-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/react@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\react"
+          ]
+        },
+        "@storybook/testing-library": {
+          "version": "0.2.2",
+          "resolved": "https://registry.npmjs.org/@storybook/testing-library/-/testing-library-0.2.2.tgz",
+          "overridden": false
+        },
+        "@urassamx7/lint-config": {
+          "resolved": "file:../../packages/lint-config",
+          "overridden": false
+        },
+        "@urassamx7/react": {
+          "version": "1.0.0",
+          "resolved": "file:../../packages/react",
+          "overridden": false,
+          "dependencies": {
+            "@stitches/react": {
+              "version": "1.2.8",
+              "resolved": "https://registry.npmjs.org/@stitches/react/-/react-1.2.8.tgz",
+              "overridden": false
+            },
+            "@types/react-dom": {
+              "version": "19.2.3",
+              "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz",
+              "overridden": false
+            },
+            "@types/react": {
+              "version": "19.2.17",
+              "resolved": "https://registry.npmjs.org/@types/react/-/react-19.2.17.tgz",
+              "overridden": false
+            },
+            "@urassamx7/tokens": {
+              "version": "1.0.0"
+            },
+            "@urassamx7/ts-config": {
+              "version": "1.0.0"
+            },
+            "react": {
+              "version": "19.2.8"
+            },
+            "tsup": {
+              "version": "8.5.1",
+              "resolved": "https://registry.npmjs.org/tsup/-/tsup-8.5.1.tgz",
+              "overridden": false
+            },
+            "typescript": {
+              "version": "5.9.3",
+              "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+              "overridden": false
+            }
+          }
+        },
+        "@urassamx7/tokens": {
+          "version": "1.0.0",
+          "resolved": "file:../../packages/tokens",
+          "overridden": false,
+          "dependencies": {
+            "@urassamx7/ts-config": {
+              "version": "1.0.0"
+            },
+            "tsup": {
+              "version": "8.5.1"
+            },
+            "typescript": {
+              "version": "5.9.3"
+            }
+          }
+        },
+        "@urassamx7/ts-config": {
+          "version": "1.0.0",
+          "resolved": "file:../../packages/ts-config",
+          "overridden": false
+        },
+        "@vitejs/plugin-react": {
+          "version": "4.7.0",
+          "resolved": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz",
+          "overridden": false
+        },
+        "babel-loader": {
+          "version": "9.2.1",
+          "resolved": "https://registry.npmjs.org/babel-loader/-/babel-loader-9.2.1.tgz",
+          "overridden": false
+        },
+        "phosphor-react": {
+          "version": "1.4.1",
+          "resolved": "https://registry.npmjs.org/phosphor-react/-/phosphor-react-1.4.1.tgz",
+          "overridden": false
+        },
+        "polished": {
+          "version": "4.3.1",
+          "resolved": "https://registry.npmjs.org/polished/-/polished-4.3.1.tgz",
+          "overridden": false
+        },
+        "react-dom": {
+          "version": "19.2.8",
+          "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz",
+          "overridden": false
+        },
+        "react": {
+          "version": "19.2.8",
+          "resolved": "https://registry.npmjs.org/react/-/react-19.2.8.tgz",
+          "overridden": false
+        },
+        "vite": {
+          "version": "5.4.21",
+          "resolved": "https://registry.npmjs.org/vite/-/vite-5.4.21.tgz",
+          "overridden": false
+        }
+      }
+    }
+  },
+  "error": {
+    "code": "ELSPROBLEMS",
+    "summary": "invalid: @storybook/addon-a11y@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-a11y\ninvalid: @storybook/addon-links@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-links\ninvalid: @storybook/builder-vite@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\builder-vite\ninvalid: @storybook/react@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\react",
+    "detail": ""
+  }
+}
+[15:19:33.754] [DEBUG] No installations found for @storybook/addon-interactions
+[15:19:33.754] [DEBUG] Getting CLI versions from NPM for @storybook/addon-interactions...
+[15:19:33.754] [DEBUG] Executing command: npm info @storybook/addon-interactions version
+[15:19:33.755] [DEBUG] Resolved command variation: npm.cmd
+[15:19:33.817] [DEBUG] Error finding installations for @storybook/testing-library: ExecaError: Command failed with exit code 1: npm.cmd ls --json "--depth=0"
+
+{
+  "name": "desgin-system",
+  "problems": [
+    "invalid: @storybook/addon-a11y@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-a11y",
+    "invalid: @storybook/addon-links@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-links",
+    "invalid: @storybook/builder-vite@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\builder-vite",
+    "invalid: @storybook/react@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\react"
+  ],
+  "dependencies": {
+    "@urassamx7/docs": {
+      "version": "1.0.0",
+      "resolved": "file:../../packages/docs",
+      "overridden": false,
+      "dependencies": {
+        "@babel/core": {
+          "version": "7.29.7",
+          "resolved": "https://registry.npmjs.org/@babel/core/-/core-7.29.7.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-a11y": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-a11y/-/addon-a11y-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/addon-a11y@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-a11y"
+          ]
+        },
+        "@storybook/addon-actions": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-actions/-/addon-actions-8.6.18.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-essentials": {
+          "version": "8.6.14",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-essentials/-/addon-essentials-8.6.14.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-interactions": {
+          "version": "8.6.14",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-interactions/-/addon-interactions-8.6.14.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-links": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-links/-/addon-links-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/addon-links@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-links"
+          ]
+        },
+        "@storybook/builder-vite": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/builder-vite/-/builder-vite-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/builder-vite@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\builder-vite"
+          ]
+        },
+        "@storybook/react": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/react/-/react-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/react@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\react"
+          ]
+        },
+        "@storybook/testing-library": {
+          "version": "0.2.2",
+          "resolved": "https://registry.npmjs.org/@storybook/testing-library/-/testing-library-0.2.2.tgz",
+          "overridden": false
+        },
+        "@urassamx7/lint-config": {
+          "resolved": "file:../../packages/lint-config",
+          "overridden": false
+        },
+        "@urassamx7/react": {
+          "version": "1.0.0",
+          "resolved": "file:../../packages/react",
+          "overridden": false,
+          "dependencies": {
+            "@stitches/react": {
+              "version": "1.2.8",
+              "resolved": "https://registry.npmjs.org/@stitches/react/-/react-1.2.8.tgz",
+              "overridden": false
+            },
+            "@types/react-dom": {
+              "version": "19.2.3",
+              "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz",
+              "overridden": false
+            },
+            "@types/react": {
+              "version": "19.2.17",
+              "resolved": "https://registry.npmjs.org/@types/react/-/react-19.2.17.tgz",
+              "overridden": false
+            },
+            "@urassamx7/tokens": {
+              "version": "1.0.0"
+            },
+            "@urassamx7/ts-config": {
+              "version": "1.0.0"
+            },
+            "react": {
+              "version": "19.2.8"
+            },
+            "tsup": {
+              "version": "8.5.1",
+              "resolved": "https://registry.npmjs.org/tsup/-/tsup-8.5.1.tgz",
+              "overridden": false
+            },
+            "typescript": {
+              "version": "5.9.3",
+              "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+              "overridden": false
+            }
+          }
+        },
+        "@urassamx7/tokens": {
+          "version": "1.0.0",
+          "resolved": "file:../../packages/tokens",
+          "overridden": false,
+          "dependencies": {
+            "@urassamx7/ts-config": {
+              "version": "1.0.0"
+            },
+            "tsup": {
+              "version": "8.5.1"
+            },
+            "typescript": {
+              "version": "5.9.3"
+            }
+          }
+        },
+        "@urassamx7/ts-config": {
+          "version": "1.0.0",
+          "resolved": "file:../../packages/ts-config",
+          "overridden": false
+        },
+        "@vitejs/plugin-react": {
+          "version": "4.7.0",
+          "resolved": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz",
+          "overridden": false
+        },
+        "babel-loader": {
+          "version": "9.2.1",
+          "resolved": "https://registry.npmjs.org/babel-loader/-/babel-loader-9.2.1.tgz",
+          "overridden": false
+        },
+        "phosphor-react": {
+          "version": "1.4.1",
+          "resolved": "https://registry.npmjs.org/phosphor-react/-/phosphor-react-1.4.1.tgz",
+          "overridden": false
+        },
+        "polished": {
+          "version": "4.3.1",
+          "resolved": "https://registry.npmjs.org/polished/-/polished-4.3.1.tgz",
+          "overridden": false
+        },
+        "react-dom": {
+          "version": "19.2.8",
+          "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz",
+          "overridden": false
+        },
+        "react": {
+          "version": "19.2.8",
+          "resolved": "https://registry.npmjs.org/react/-/react-19.2.8.tgz",
+          "overridden": false
+        },
+        "vite": {
+          "version": "5.4.21",
+          "resolved": "https://registry.npmjs.org/vite/-/vite-5.4.21.tgz",
+          "overridden": false
+        }
+      }
+    }
+  },
+  "error": {
+    "code": "ELSPROBLEMS",
+    "summary": "invalid: @storybook/addon-a11y@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-a11y\ninvalid: @storybook/addon-links@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-links\ninvalid: @storybook/builder-vite@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\builder-vite\ninvalid: @storybook/react@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\react",
+    "detail": ""
+  }
+}
+[15:19:33.817] [DEBUG] No installations found for @storybook/testing-library
+[15:19:33.817] [DEBUG] Getting CLI versions from NPM for @storybook/testing-library...
+[15:19:33.817] [DEBUG] Executing command: npm info @storybook/testing-library version
+[15:19:33.817] [DEBUG] Resolved command variation: npm.cmd
+[15:19:33.916] [DEBUG] Error finding installations for @storybook/addon-essentials: ExecaError: Command failed with exit code 1: npm.cmd ls --json "--depth=0"
+
+{
+  "name": "desgin-system",
+  "problems": [
+    "invalid: @storybook/addon-a11y@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-a11y",
+    "invalid: @storybook/addon-links@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-links",
+    "invalid: @storybook/builder-vite@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\builder-vite",
+    "invalid: @storybook/react@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\react"
+  ],
+  "dependencies": {
+    "@urassamx7/docs": {
+      "version": "1.0.0",
+      "resolved": "file:../../packages/docs",
+      "overridden": false,
+      "dependencies": {
+        "@babel/core": {
+          "version": "7.29.7",
+          "resolved": "https://registry.npmjs.org/@babel/core/-/core-7.29.7.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-a11y": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-a11y/-/addon-a11y-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/addon-a11y@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-a11y"
+          ]
+        },
+        "@storybook/addon-actions": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-actions/-/addon-actions-8.6.18.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-essentials": {
+          "version": "8.6.14",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-essentials/-/addon-essentials-8.6.14.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-interactions": {
+          "version": "8.6.14",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-interactions/-/addon-interactions-8.6.14.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-links": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-links/-/addon-links-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/addon-links@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-links"
+          ]
+        },
+        "@storybook/builder-vite": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/builder-vite/-/builder-vite-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/builder-vite@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\builder-vite"
+          ]
+        },
+        "@storybook/react": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/react/-/react-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/react@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\react"
+          ]
+        },
+        "@storybook/testing-library": {
+          "version": "0.2.2",
+          "resolved": "https://registry.npmjs.org/@storybook/testing-library/-/testing-library-0.2.2.tgz",
+          "overridden": false
+        },
+        "@urassamx7/lint-config": {
+          "resolved": "file:../../packages/lint-config",
+          "overridden": false
+        },
+        "@urassamx7/react": {
+          "version": "1.0.0",
+          "resolved": "file:../../packages/react",
+          "overridden": false,
+          "dependencies": {
+            "@stitches/react": {
+              "version": "1.2.8",
+              "resolved": "https://registry.npmjs.org/@stitches/react/-/react-1.2.8.tgz",
+              "overridden": false
+            },
+            "@types/react-dom": {
+              "version": "19.2.3",
+              "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz",
+              "overridden": false
+            },
+            "@types/react": {
+              "version": "19.2.17",
+              "resolved": "https://registry.npmjs.org/@types/react/-/react-19.2.17.tgz",
+              "overridden": false
+            },
+            "@urassamx7/tokens": {
+              "version": "1.0.0"
+            },
+            "@urassamx7/ts-config": {
+              "version": "1.0.0"
+            },
+            "react": {
+              "version": "19.2.8"
+            },
+            "tsup": {
+              "version": "8.5.1",
+              "resolved": "https://registry.npmjs.org/tsup/-/tsup-8.5.1.tgz",
+              "overridden": false
+            },
+            "typescript": {
+              "version": "5.9.3",
+              "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+              "overridden": false
+            }
+          }
+        },
+        "@urassamx7/tokens": {
+          "version": "1.0.0",
+          "resolved": "file:../../packages/tokens",
+          "overridden": false,
+          "dependencies": {
+            "@urassamx7/ts-config": {
+              "version": "1.0.0"
+            },
+            "tsup": {
+              "version": "8.5.1"
+            },
+            "typescript": {
+              "version": "5.9.3"
+            }
+          }
+        },
+        "@urassamx7/ts-config": {
+          "version": "1.0.0",
+          "resolved": "file:../../packages/ts-config",
+          "overridden": false
+        },
+        "@vitejs/plugin-react": {
+          "version": "4.7.0",
+          "resolved": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz",
+          "overridden": false
+        },
+        "babel-loader": {
+          "version": "9.2.1",
+          "resolved": "https://registry.npmjs.org/babel-loader/-/babel-loader-9.2.1.tgz",
+          "overridden": false
+        },
+        "phosphor-react": {
+          "version": "1.4.1",
+          "resolved": "https://registry.npmjs.org/phosphor-react/-/phosphor-react-1.4.1.tgz",
+          "overridden": false
+        },
+        "polished": {
+          "version": "4.3.1",
+          "resolved": "https://registry.npmjs.org/polished/-/polished-4.3.1.tgz",
+          "overridden": false
+        },
+        "react-dom": {
+          "version": "19.2.8",
+          "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz",
+          "overridden": false
+        },
+        "react": {
+          "version": "19.2.8",
+          "resolved": "https://registry.npmjs.org/react/-/react-19.2.8.tgz",
+          "overridden": false
+        },
+        "vite": {
+          "version": "5.4.21",
+          "resolved": "https://registry.npmjs.org/vite/-/vite-5.4.21.tgz",
+          "overridden": false
+        }
+      }
+    }
+  },
+  "error": {
+    "code": "ELSPROBLEMS",
+    "summary": "invalid: @storybook/addon-a11y@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-a11y\ninvalid: @storybook/addon-links@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-links\ninvalid: @storybook/builder-vite@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\builder-vite\ninvalid: @storybook/react@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\react",
+    "detail": ""
+  }
+}
+[15:19:33.916] [DEBUG] No installations found for @storybook/addon-essentials
+[15:19:33.916] [DEBUG] Getting CLI versions from NPM for @storybook/addon-essentials...
+[15:19:33.916] [DEBUG] Executing command: npm info @storybook/addon-essentials version
+[15:19:33.917] [DEBUG] Resolved command variation: npm.cmd
+[15:19:34.115] [DEBUG] Error finding installations for @storybook/addon-actions: ExecaError: Command failed with exit code 1: npm.cmd ls --json "--depth=0"
+
+{
+  "name": "desgin-system",
+  "problems": [
+    "invalid: @storybook/addon-a11y@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-a11y",
+    "invalid: @storybook/addon-links@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-links",
+    "invalid: @storybook/builder-vite@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\builder-vite",
+    "invalid: @storybook/react@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\react"
+  ],
+  "dependencies": {
+    "@urassamx7/docs": {
+      "version": "1.0.0",
+      "resolved": "file:../../packages/docs",
+      "overridden": false,
+      "dependencies": {
+        "@babel/core": {
+          "version": "7.29.7",
+          "resolved": "https://registry.npmjs.org/@babel/core/-/core-7.29.7.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-a11y": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-a11y/-/addon-a11y-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/addon-a11y@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-a11y"
+          ]
+        },
+        "@storybook/addon-actions": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-actions/-/addon-actions-8.6.18.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-essentials": {
+          "version": "8.6.14",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-essentials/-/addon-essentials-8.6.14.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-interactions": {
+          "version": "8.6.14",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-interactions/-/addon-interactions-8.6.14.tgz",
+          "overridden": false
+        },
+        "@storybook/addon-links": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/addon-links/-/addon-links-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/addon-links@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-links"
+          ]
+        },
+        "@storybook/builder-vite": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/builder-vite/-/builder-vite-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/builder-vite@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\builder-vite"
+          ]
+        },
+        "@storybook/react": {
+          "version": "8.6.18",
+          "resolved": "https://registry.npmjs.org/@storybook/react/-/react-8.6.18.tgz",
+          "overridden": false,
+          "invalid": "\"^10.5.4\" from packages/docs",
+          "problems": [
+            "invalid: @storybook/react@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\react"
+          ]
+        },
+        "@storybook/testing-library": {
+          "version": "0.2.2",
+          "resolved": "https://registry.npmjs.org/@storybook/testing-library/-/testing-library-0.2.2.tgz",
+          "overridden": false
+        },
+        "@urassamx7/lint-config": {
+          "resolved": "file:../../packages/lint-config",
+          "overridden": false
+        },
+        "@urassamx7/react": {
+          "version": "1.0.0",
+          "resolved": "file:../../packages/react",
+          "overridden": false,
+          "dependencies": {
+            "@stitches/react": {
+              "version": "1.2.8",
+              "resolved": "https://registry.npmjs.org/@stitches/react/-/react-1.2.8.tgz",
+              "overridden": false
+            },
+            "@types/react-dom": {
+              "version": "19.2.3",
+              "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz",
+              "overridden": false
+            },
+            "@types/react": {
+              "version": "19.2.17",
+              "resolved": "https://registry.npmjs.org/@types/react/-/react-19.2.17.tgz",
+              "overridden": false
+            },
+            "@urassamx7/tokens": {
+              "version": "1.0.0"
+            },
+            "@urassamx7/ts-config": {
+              "version": "1.0.0"
+            },
+            "react": {
+              "version": "19.2.8"
+            },
+            "tsup": {
+              "version": "8.5.1",
+              "resolved": "https://registry.npmjs.org/tsup/-/tsup-8.5.1.tgz",
+              "overridden": false
+            },
+            "typescript": {
+              "version": "5.9.3",
+              "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+              "overridden": false
+            }
+          }
+        },
+        "@urassamx7/tokens": {
+          "version": "1.0.0",
+          "resolved": "file:../../packages/tokens",
+          "overridden": false,
+          "dependencies": {
+            "@urassamx7/ts-config": {
+              "version": "1.0.0"
+            },
+            "tsup": {
+              "version": "8.5.1"
+            },
+            "typescript": {
+              "version": "5.9.3"
+            }
+          }
+        },
+        "@urassamx7/ts-config": {
+          "version": "1.0.0",
+          "resolved": "file:../../packages/ts-config",
+          "overridden": false
+        },
+        "@vitejs/plugin-react": {
+          "version": "4.7.0",
+          "resolved": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz",
+          "overridden": false
+        },
+        "babel-loader": {
+          "version": "9.2.1",
+          "resolved": "https://registry.npmjs.org/babel-loader/-/babel-loader-9.2.1.tgz",
+          "overridden": false
+        },
+        "phosphor-react": {
+          "version": "1.4.1",
+          "resolved": "https://registry.npmjs.org/phosphor-react/-/phosphor-react-1.4.1.tgz",
+          "overridden": false
+        },
+        "polished": {
+          "version": "4.3.1",
+          "resolved": "https://registry.npmjs.org/polished/-/polished-4.3.1.tgz",
+          "overridden": false
+        },
+        "react-dom": {
+          "version": "19.2.8",
+          "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz",
+          "overridden": false
+        },
+        "react": {
+          "version": "19.2.8",
+          "resolved": "https://registry.npmjs.org/react/-/react-19.2.8.tgz",
+          "overridden": false
+        },
+        "vite": {
+          "version": "5.4.21",
+          "resolved": "https://registry.npmjs.org/vite/-/vite-5.4.21.tgz",
+          "overridden": false
+        }
+      }
+    }
+  },
+  "error": {
+    "code": "ELSPROBLEMS",
+    "summary": "invalid: @storybook/addon-a11y@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-a11y\ninvalid: @storybook/addon-links@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\addon-links\ninvalid: @storybook/builder-vite@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\builder-vite\ninvalid: @storybook/react@8.6.18 D:\\Programming\\Rocketseat\\Reactjs\\6 - Design System\\desgin-system\\packages\\docs\\node_modules\\@storybook\\react",
+    "detail": ""
+  }
+}
+[15:19:34.115] [DEBUG] No installations found for @storybook/addon-actions
+[15:19:34.115] [DEBUG] Getting CLI versions from NPM for @storybook/addon-actions...
+[15:19:34.115] [DEBUG] Executing command: npm info @storybook/addon-actions version
+[15:19:34.117] [DEBUG] Resolved command variation: npm.cmd
+[15:19:38.141] [DEBUG] Checking fix initial-globals for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.145] [DEBUG] Checking fix addon-globals-api for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.147] [DEBUG] Checking fix addon-a11y-addon-test for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.148] [DEBUG] Checking fix consolidated-imports for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.148] [DEBUG] Checking fix addon-experimental-test for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.148] [DEBUG] Using cached installed version for @storybook/experimental-addon-test...
+[15:19:38.148] [DEBUG] Checking fix rnstorybook-config for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.148] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:38.148] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:38.148] [DEBUG] Checking fix rn-ondevice-addons-to-device-addons for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.149] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:38.149] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:38.149] [DEBUG] Checking fix migrate-addon-console for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.149] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:38.149] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:38.149] [DEBUG] Checking fix nextjs-to-nextjs-vite for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.149] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:38.149] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:38.149] [DEBUG] Checking fix angular-to-angular-vite for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.149] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:38.149] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:38.149] [DEBUG] Checking fix react-vite-to-tanstack-react for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.149] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:38.149] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:38.149] [DEBUG] Checking fix remove-addon-interactions for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.149] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:38.149] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:38.149] [DEBUG] Checking fix addon-mcp for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.149] [DEBUG] Checking fix renderer-to-framework for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.150] [DEBUG] Checking fix remove-essential-addons for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.150] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:38.150] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:38.150] [DEBUG] Checking fix addon-a11y-parameters for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.151] [DEBUG] Checking fix remove-docs-autodocs for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.155] [DEBUG] Checking fix wrap-getAbsolutePath for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.160] [DEBUG] Checking fix fix-faux-esm-require for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.162] [DEBUG] Checking fix storybookPackageNameConflict for project D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook...
+[15:19:38.163] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:38.163] [INFO] detect-automigrations-task: 
+Automigrations detected:
+[15:19:38.164] [INFO] detect-automigrations-task: [32m[32m✔[32m remove-addon-interactions[39m
+[15:19:38.165] [INFO] detect-automigrations-task: [32m[32m✔[32m remove-essential-addons[39m
+[15:19:38.165] [INFO] detect-automigrations-task: [32m[32m✔[32m wrap-getAbsolutePath[39m
+[15:19:38.166] [INFO] detect-automigrations-task-success: 3 automigration(s) detected
+[15:19:54.012] [PROMPT] Select automigrations to run {"choice":["remove-addon-interactions","remove-essential-addons","wrap-getAbsolutePath"]}
+[15:19:54.013] [INFO] automigrate-D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook-task-start: Running automigrations for D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook
+[15:19:54.015] [DEBUG] Uninstalling @storybook/addon-interactions
+[15:19:54.015] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:54.016] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:54.016] [DEBUG] Removing '@storybook/addon-interactions' from main.js addons field.
+[15:19:54.022] [INFO] automigrate-D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook-task: [32m[32m✔[32m remove-addon-interactions[39m
+[15:19:54.027] [DEBUG] Uninstalling @storybook/addon-essentials
+[15:19:54.027] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:54.027] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:54.042] [DEBUG] Removing '@storybook/addon-essentials' from main.js addons field.
+[15:19:54.048] [DEBUG] Uninstalling @storybook/addon-actions
+[15:19:54.048] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:54.048] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:54.067] [DEBUG] Getting Storybook info...
+[15:19:54.075] [DEBUG] Getting stories paths...
+[15:19:54.076] [DEBUG] Getting package manager...
+[15:19:54.080] [DEBUG] Getting package.json info for D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/package.json...
+[15:19:54.080] [DEBUG] Getting Storybook version...
+[15:19:54.080] [DEBUG] Detecting CSF factory usage...
+[15:19:54.101] [INFO] Verifying @storybook/addon-docs
+[15:19:54.102] [DEBUG] Getting dependency version for storybook...
+[15:19:54.102] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:54.102] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:19:54.102] [INFO] Installing @storybook/addon-docs@10.5.4
+[15:19:54.102] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:54.102] [DEBUG] Getting CLI versions from NPM for @storybook/addon-docs...
+[15:19:54.102] [DEBUG] Executing command: npm info @storybook/addon-docs version
+[15:19:54.108] [DEBUG] Resolved command variation: npm.cmd
+[15:19:56.778] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:19:56.779] [INFO] Adding '@storybook/addon-docs' to the "addons" field in D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\.storybook\main.js
+[15:19:56.862] [INFO] automigrate-D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook-task: [32m[32m✔[32m remove-essential-addons[39m
+[15:19:56.871] [INFO] ❌ The migration failed to update your [34mD:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\.storybook\main.js[39m on your behalf because of the following error:
+        SB_CLI_AUTOMIGRATE_0001 (CommonJsConfigNotSupportedError): Support for CommonJS Storybook config files has been removed in Storybook 10.0.0.
+Please migrate your config to a valid ESM file.
+
+CommonJS files (ending in .cjs, .cts, .cjsx, .ctsx) or files containing 'module.exports' are no longer supported.
+Please convert your config to use ES modules (import/export syntax).
+
+More info: https://storybook.js.org/docs/configure/overview?ref=error#es-modules
+
+
+[15:19:56.881] [INFO] ⚠️ Storybook automigrations are based on AST parsing and it's possible that your [34mD:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\.storybook\main.js[39m file contains a non-standard format (e.g. your export is not an object) or that there was an error when parsing dynamic values (e.g. "require" calls, or usage of environment variables). When your main config is non-standard, automigrations are unfortunately not possible. Please follow the instructions given previously and follow the documentation to make the updates manually.
+[15:19:56.882] [INFO] automigrate-D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook-task: [32m[32m✔[32m wrap-getAbsolutePath[39m
+[15:19:56.883] [INFO] automigrate-D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook-task-success: Completed automigrations for D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook
+[15:19:56.885] [INFO] Installing dependencies...
+[15:19:56.885] [INFO] install-dependencies-spinner-start: Installing dependencies...
+[15:19:56.887] [DEBUG] Executing command: npm install --force
+[15:19:56.888] [DEBUG] Resolved command variation: npm.cmd
+[15:20:29.739] [INFO] Installing dependencies...: 
+added 15 packages, removed 59 packages, changed 8 packages, and audited 316 packages in 30s
+
+[15:20:29.739] [INFO] install-dependencies-spinner: Installing dependencies...: added 15 packages, remove
+[15:20:29.739] [INFO] Installing dependencies...: 
+
+[15:20:29.739] [INFO] install-dependencies-spinner: Installing dependencies...: 
+[15:20:29.739] [INFO] Installing dependencies...: 93 packages are looking for funding
+
+[15:20:29.739] [INFO] install-dependencies-spinner: Installing dependencies...: 93 packages are looking f
+[15:20:29.740] [INFO] Installing dependencies...:   run `npm fund` for details
+
+[15:20:29.740] [INFO] install-dependencies-spinner: Installing dependencies...: run `npm fund` for detail
+[15:20:29.768] [INFO] Installing dependencies...: 
+2 vulnerabilities (1 moderate, 1 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+[15:20:29.768] [INFO] install-dependencies-spinner: Installing dependencies...: 2 vulnerabilities (1 mode
+[15:20:29.829] [INFO] Dependencies installed
+[15:20:29.829] [INFO] install-dependencies-spinner-stop: Dependencies installed
+[15:20:29.832] [WARN] Since you are in a monorepo, we advise you to deduplicate your dependencies. We can do this for you but it might take some time.
+[15:21:01.755] [PROMPT] Execute npm run dedupe? {"choice":false}
+[15:21:01.755] [INFO] If you find any issues running Storybook, you can run npm run dedupe manually to deduplicate your dependencies and try again.
+[15:21:01.757] [INFO] Checking the health of your project(s)..
+[15:21:01.758] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\packages\docs\package.json...
+[15:21:01.758] [DEBUG] Using cached package.json for D:\Programming\Rocketseat\Reactjs\6 - Design System\desgin-system\package.json...
+[15:21:01.759] [DEBUG] Executing command: npm ls --json --depth=99
+[15:21:01.759] [DEBUG] Resolved command variation: npm.cmd
+[15:21:04.016] [DEBUG] Executing command: npm ls --json --depth=0
+[15:21:04.017] [DEBUG] Resolved command variation: npm.cmd
+[15:21:06.086] [WARN] D:/Programming/Rocketseat/Reactjs/6 - Design System/desgin-system/packages/docs/.storybook: 1 issue found
+[15:21:06.087] [INFO] The "storybook" package was not found in your package.json.
+Installing "storybook" as a direct dev dependency in your package.json is required.
+[15:21:06.088] [INFO] Storybook doctor is complete!
+[15:21:06.089] [INFO] You can always recheck the health of your project(s) by running:
+[36mnpx storybook doctor[39m
+[15:21:06.091] [INFO] [33mYour project(s) have been upgraded successfully, but some issues were found which need your attention, please check Storybook doctor logs above.[39m
+[15:21:06.092] [INFO] If you want to learn more about the automigrations that executed in your project(s), please check the following links:
+• ]8;;https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#essentials-addon-viewport-controls-interactions-and-actions-moved-to-coreremove-addon-interactions]8;;
+• ]8;;https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#essentials-addon-viewport-controls-interactions-and-actions-moved-to-coreremove-essential-addons]8;;
+• ]8;;https://storybook.js.org/docs/faq#how-do-i-fix-module-resolution-in-special-environmentswrap-getAbsolutePath]8;;
+[15:21:06.095] [INFO] For a full list of changes, please check our migration guide: [36mhttps://storybook.js.org/docs/releases/migration-guide?ref=upgrade[39m
+[15:21:06.097] [INFO] Storybook upgrade completed!

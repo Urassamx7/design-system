@@ -1,0 +1,12 @@
+{
+	"name": "desgin-system",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"author": "Marvin Mussacate",
+	"scripts": {
+		"format:write": "npx biome format --write",
+		"format": "npm run format:write"
+	}
+}

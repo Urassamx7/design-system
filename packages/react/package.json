@@ -1,0 +1,29 @@
+{
+	"name": "@urassamx7/react",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsup src/index.tsx --format cjs,esm --dts --external react",
+		"dev": "tsup src/index.tsx --format cjs,esm --dts --external react --watch",
+		"format": "npx biome format --write"
+	},
+	"keywords": [],
+	"author": "Marvin Mussacate",
+	"license": "MIT",
+	"type": "commonjs",
+	"devDependencies": {
+		"@types/react": "^19.2.17",
+		"@types/react-dom": "^19.2.3",
+		"@urassamx7/tokens": "*",
+		"@urassamx7/ts-config": "*",
+		"react": "^19.2.8",
+		"tsup": "^8.5.1",
+		"typescript": "^5.7.3"
+	},
+	"dependencies": {
+		"@stitches/react": "^1.2.8"
+	}
+}

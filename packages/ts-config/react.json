@@ -1,0 +1,10 @@
+{
+  "extends": "./base.json",
+
+  "compilerOptions": {
+    "lib": ["dom", "es2024"],
+    "module": "nodenext",
+    "target": "es2024",
+    "jsx": "react-jsx"
+  }
+}

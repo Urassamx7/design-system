@@ -1,0 +1,7 @@
+{
+  "name": "@urassamx7/lint-config",
+  "author": "Marvin Mussacate",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js"
+}
