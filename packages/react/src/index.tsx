@@ -6,6 +6,6 @@ export const Button = styled('button', {
 	borderRadius: '$md',
 	padding: '$2 $4',
 	border: 0,
-	fontWeight: 'bold',
+	fontWeight: '$bold',
 	color: '$white',
 })

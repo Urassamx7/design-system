@@ -3,7 +3,8 @@
 
   "compilerOptions": {
     "lib": ["dom", "es2024"],
-    "module": "nodenext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "target": "es2024",
     "jsx": "react-jsx"
   }

@@ -1,4 +1,11 @@
-{
+﻿{
   "extends": "@urassamx7/ts-config/react.json",
-  "include": ["src"]
+  "include": ["src"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@stitches/react": ["../../node_modules/@stitches/react"],
+      "@stitches/react/*": ["../../node_modules/@stitches/react/*"]
+    }
+  }
 }
