@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button } from '@urassamx7/react'
+import { Button, type ButtonProps } from '@urassamx7/react'
 
 export default {
 	title: 'Button',
@@ -7,7 +7,11 @@ export default {
 	args: {
 		children: 'Enviar',
 	},
-} as Meta
+} as Meta<ButtonProps>
 
-export const Primary: StoryObj = {}
-export const Secondary: StoryObj = {}
+export const Primary: StoryObj<ButtonProps> = {}
+export const Big: StoryObj<ButtonProps> = {
+	args: {
+		size: 'big',
+	},
+}
