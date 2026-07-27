@@ -1,3 +1,5 @@
 storybook-static
 
 *storybook.log
+.turbo
+node_modules

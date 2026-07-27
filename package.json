@@ -7,6 +7,17 @@
 	"author": "Marvin Mussacate",
 	"scripts": {
 		"format:write": "npx biome format --write",
-		"format": "npm run format:write"
+		"format": "npm run format:write",
+		"dev": "turbo run dev",
+		"build": "turbo run build"
+	},
+	"devDependencies": {
+		"turbo": "^2.10.7"
+	},
+	"devEngines": {
+		"packageManager": {
+			"name": "npm",
+			"version": "11.12.1"
+		}
 	}
 }
