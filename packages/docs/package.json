@@ -15,20 +15,20 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.26.0",
+    "@chromatic-com/storybook": "^5.2.1",
     "@storybook/addon-docs": "10.5.4",
     "@storybook/addon-links": "^10.5.4",
+    "@storybook/addon-vitest": "^10.5.4",
     "@storybook/react": "^10.5.4",
     "@storybook/react-vite": "^10.5.4",
     "@vitejs/plugin-react": "^4.3.4",
-    "babel-loader": "^9.2.1",
-    "vite": "^5.4.11",
-    "storybook": "^10.5.4",
-    "@chromatic-com/storybook": "^5.2.1",
-    "@storybook/addon-vitest": "^10.5.4",
-    "vitest": "^4.1.10",
-    "playwright": "^1.62.0",
     "@vitest/browser-playwright": "^4.1.10",
-    "@vitest/coverage-v8": "^4.1.10"
+    "@vitest/coverage-v8": "^4.1.10",
+    "babel-loader": "^9.2.1",
+    "playwright": "^1.62.0",
+    "storybook": "^10.5.4",
+    "vite": "^5.4.11",
+    "vitest": "^4.1.10"
   },
   "dependencies": {
     "@storybook/addon-a11y": "^10.5.4",
