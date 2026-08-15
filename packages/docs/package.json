@@ -16,11 +16,13 @@
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@chromatic-com/storybook": "^5.2.1",
+    "@storybook/addon-a11y": "^10.5.8",
     "@storybook/addon-docs": "10.5.4",
     "@storybook/addon-links": "^10.5.4",
     "@storybook/addon-vitest": "^10.5.4",
     "@storybook/react": "^10.5.4",
     "@storybook/react-vite": "^10.5.4",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@vitejs/plugin-react": "^4.3.4",
     "@vitest/browser-playwright": "^4.1.10",
     "@vitest/coverage-v8": "^4.1.10",
@@ -31,7 +33,6 @@
     "vitest": "^4.1.10"
   },
   "dependencies": {
-    "@storybook/addon-a11y": "^10.5.4",
     "@urassamx7/lint-config": "*",
     "@urassamx7/react": "*",
     "@urassamx7/tokens": "*",
