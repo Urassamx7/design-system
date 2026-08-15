@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { Avatar, type AvatarProps } from '@urassamx7/react'
 
 export default {
-	title: 'Data display/Avatar',
+	title: 'Data Display/Avatar',
 	component: Avatar,
 	args: {
 		src: 'https://github.com/urassamx7.png',
