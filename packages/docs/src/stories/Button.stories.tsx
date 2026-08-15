@@ -8,13 +8,22 @@ export default {
 	args: {
 		children: 'Send',
 		disabled: false,
+		variant: 'primary',
+		size: 'md',
 	},
 	argTypes: {
+		onClick: { action: 'click' },
 		variant: {
 			options: ['primary', 'secondary', 'tertiary', 'destructive'],
 			control: {
 				type: 'select',
 				labels: 'Primary',
+			},
+		},
+		size: {
+			options: ['sm', 'md'],
+			control: {
+				type: 'inline-radio',
 			},
 		},
 	},

@@ -5,7 +5,12 @@ export default {
 	title: 'Surfaces/Box',
 	component: Box,
 	args: {
-		children: <Text>Teste do elemento box</Text>
+		children: <Text>Teste do elemento box</Text>,
+	},
+	argTypes: {
+		children: {
+			control: false,
+		},
 	},
 } as Meta<BoxProps>
 

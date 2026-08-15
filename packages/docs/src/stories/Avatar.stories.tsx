@@ -8,6 +8,10 @@ export default {
 		src: 'https://github.com/urassamx7.png',
 		alt: 'Marvin Mussacate',
 	},
+	argTypes: {
+		src: { control: 'text' },
+		alt: { control: 'text' },
+	},
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

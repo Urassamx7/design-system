@@ -4,7 +4,9 @@ import { Box, Checkbox, type CheckboxProps, Text } from '@urassamx7/react'
 export default {
 	title: 'Form/Checkbox',
 	component: Checkbox,
-	args: {},
+	args: {
+		checked: false,
+	},
 	decorators: [
 		(story) => {
 			return (
@@ -18,6 +20,9 @@ export default {
 			)
 		},
 	],
+	argTypes: {
+		checked: { control: 'boolean', defaultValue: false },
+	},
 } as Meta<CheckboxProps>
 
 export const Primary: StoryObj<CheckboxProps> = {}
