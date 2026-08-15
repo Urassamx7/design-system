@@ -7,12 +7,10 @@ import { styled } from '../styles'
 export const TextArea = styled('textarea', {
 	color: '$white',
 	backgroundColor: '$gray900',
-    
 	padding: '$3 $4',
 	borderRadius: '$sm',
 	boxSizing: 'border-box',
 	border: '2px solid $gray900',
-
 
 	fontFamily: '$default',
 	fontSize: '$sm',
@@ -38,3 +36,5 @@ export const TextArea = styled('textarea', {
 export type TextAreaProps = ComponentProps<typeof TextArea> & {
 	as?: ElementType
 }
+
+TextArea.displayName = 'TextArea'
