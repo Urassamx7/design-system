@@ -1,4 +1,7 @@
 {
 	"extends": "@urassamx7/ts-config/react.json",
+	"compilerOptions": {
+		"moduleResolution": "bundler"
+	},
 	"include": ["src", ".storybook"]
 }
